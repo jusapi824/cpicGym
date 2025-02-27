@@ -1,5 +1,5 @@
 <?php
-echo "Test> ".__DIR__;
+echo "Test> ".__DIR__.'/../app/';
 
 require_once __DIR__.'/app/config/global.php';
 
