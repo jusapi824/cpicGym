@@ -1,4 +1,5 @@
 <?php
+echo "Test> ".__DIR__;
 
 require_once '../app/config/global.php';
 require_once '../app/controllers/homeController.php';
@@ -6,7 +7,6 @@ require_once '../app/controllers/rolController.php';
 require_once '../app/controllers/centroController.php';
 require_once '../app/controllers/actividadController.php';
 require_once '../app/controllers/programaController.php';
-echo "Test";
 
 $url = $_SERVER['REQUEST_URI']; // Lo que se ingresa en la url
 
