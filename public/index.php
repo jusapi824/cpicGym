@@ -1,7 +1,8 @@
 <?php
 echo "Test> ".__DIR__;
 
-require_once '../app/config/global.php';
+// require_once '../app/config/global.php';
+require_once __DIR__.'/app/config/global.php';
 require_once '../app/controllers/homeController.php';
 require_once '../app/controllers/rolController.php';
 require_once '../app/controllers/centroController.php';
