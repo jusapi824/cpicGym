@@ -3,8 +3,7 @@ namespace App\Models;
 
 use PDO;
 use PDOException;
-
-require_once MAIN_APP_ROUTE . "../models/baseModel.php";
+require_once MAIN_APP_ROUTE."../models/BaseModel.php";
 
 class ProgramaModel extends BaseModel
 {
